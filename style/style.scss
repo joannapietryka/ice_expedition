@@ -1,0 +1,8 @@
+@for $i from 1 through 5 {
+    #sec-#{$i} {
+        background: url(../img/ice-#{$i}.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 1000px;;
+    }
+}
