@@ -108,8 +108,9 @@ nav {
 
 .floating-div.first {
     position: relative;
-    left: 70%;
+    left: 60%;
     top: 20em;
+    width: 35%;
     h1 {
 	font-size: 250%;
     padding-top: 3em;
@@ -137,7 +138,8 @@ nav {
 .floating-div.left-slide {
     position: relative;
 	left: 15%;
-	top: 30em;
+    top: 30em;
+    width: 40%;
 	transition: top 2s;
 	 -webkit-transition: top 2s;
     transition-delay: 1s;
