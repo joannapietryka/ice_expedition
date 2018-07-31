@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/calculator.js"></script>
 </head>
 <body>
     <header>
@@ -84,7 +85,28 @@
     </section>
     <section id="sec-5">
         <div class="overlay">
-            
+          <div class="calculator">
+            <form>
+              <label for="duration">When do you want to go?</label>
+              <select id="period" name="period">
+                <option value="2000">May - September</option>
+                <option value="3000">October - April</option>
+              </select>
+              <label for="duration">For how long do you want to go?</label>
+              <select id="duration" name="duration">
+                <option value="1500">A week</option>
+                <option value="2300">2 weeks</option>
+                <option value="2800">3 weeks</option>
+                <option value="3200">A month</option>
+              </select>
+                <input name="flight" id="flight" value="2455" type="checkbox">
+                <label for="flight">Add flight</label><br />
+                <input name="discount" id="discount" value="10" type="checkbox">
+                <label for="discount">Add 10% of membership discount</label>
+              <button id="calc">Calculate cost of your trip</button>
+            </form>
+            <p class="cost"> Cost of your trip would be <span></span> USD. </p>
+          </div>
         </div>
     </section>
     <footer>

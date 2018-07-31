@@ -33,5 +33,5 @@ $(function() {
       .setClassToggle(animate[i], "animate")
       .addTo(controller);
   }
-  $(".offer-box").slideUp(slow);
+  //  $(".offer-box").slideUp(slow);
 });
