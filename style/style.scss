@@ -211,8 +211,24 @@ nav.main {
   height: 30rem;
   background: rgba(255, 255, 255, 0.7);
   position: relative;
-  top: 200px;
+  top: 7%;
   margin: 1rem;
+  h2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  img {
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    display: block;
+    margin: 0 auto;
+    height: 160px;
+    width: 160px;
+  }
+  p {
+    margin: 2rem;
+    overflow: hidden;
+  }
 }
 .calculator {
   width: 60%;
@@ -252,6 +268,8 @@ nav.main {
     padding: 2rem;
     background: #fff;
     font-size: 130%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     span {
       font-size: 140%;
     }

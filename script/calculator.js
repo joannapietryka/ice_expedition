@@ -25,7 +25,7 @@ $(function() {
     }
 
     var costList = $(".cost").find("span");
-    $(".cost").show();
+    $(".cost").slideDown();
     costList.text(cost);
   }
 
